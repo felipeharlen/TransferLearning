@@ -1,6 +1,6 @@
 # Treinamento de Redes Neurais com Transfer Learning
 
-Este projeto faz parte das atividades do curso de Machine Learning Specialist da Digital Innovation One (DIO). Neste projeto, foi aplicada a técnica de transfer learning para a classificação de imagens de cães e gatos usando um conjunto de dados do Kaggle e pesos pré-treinados da rede neural InceptionV3 no ImageNet. Todo o desenvolvimento foi realizado no Jupyter Notebook.
+Este projeto faz parte das atividades do curso de Machine Learning Specialist da Digital Innovation One (DIO). Neste projeto, foi aplicada a técnica de transfer learning para a classificação de imagens de cães e gatos usando um conjunto de dados do Kaggle e pesos pré-treinados da rede neural VGG16 no ImageNet. Todo o desenvolvimento foi realizado no Jupyter Notebook.
 
 ## Objetivo
 
@@ -10,7 +10,7 @@ O objetivo deste projeto é explorar e demonstrar como é possível tirar provei
 
 - Preparação dos dados: Os conjuntos de dados de cães e gatos do Kaggle foram pré-processados e divididos em conjuntos de treinamento, validação e teste.
 
-- Transfer Learning: Foi utilizada a arquitetura InceptionV3 pré-treinada no ImageNet como base do modelo.
+- Transfer Learning: Foi utilizada a arquitetura VGG16 pré-treinada no conjunto de dados ImageNet como base do modelo.
 
 - Treinamento: A última camada da rede foi ajustada para classificar entre cães e gatos, e o modelo foi treinado com os dados de treinamento.
 
